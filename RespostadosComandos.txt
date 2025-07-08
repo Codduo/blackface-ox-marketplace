@@ -1,0 +1,63 @@
+O Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Instale o PowerShell mais recente para obter novos recursos e aprimoramentos! https://aka.ms/PSWindows
+
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox> Remove-Item -Recurse -Force frontend-react -ErrorAction SilentlyContinue
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox> npm create vite@latest frontend-react -- --template react
+
+> npx
+> create-vite frontend-react react
+
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript + SWC
+|
+o  Scaffolding project in C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox\frontend-react...
+|
+—  Done. Now run:
+
+  cd frontend-react
+  npm install
+  npm run dev
+
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox> cd frontend-react
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox\frontend-react> npm install
+
+added 114 packages, and audited 115 packages in 11s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox\frontend-react> npm install -D tailwindcss postcss autoprefixer
+
+added 11 packages, and audited 126 packages in 3s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox\frontend-react> npm install -D @tailwindcss/forms @tailwindcss/typography @tailwindcss/aspect-ratio
+
+added 9 packages, and audited 135 packages in 3s
+
+35 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox\frontend-react> npx tailwindcss@latest init -p
+npm error could not determine executable to run
+npm error A complete log of this run can be found in: C:\Users\socho\AppData\Local\npm-cache\_logs\2025-07-07T18_22_03_061Z-debug-0.log
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox\frontend-react> npm install react-router-dom axios @headlessui/react @heroicons/react react-hot-toast framer-motion react-hook-form zustand @tanstack/react-query date-fns react-select yup
+
+added 121 packages, and audited 256 packages in 19s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\socho\Downloads\Codduo Code\E-Commerce BlackFace Ox\frontend-react>

@@ -1,0 +1,36 @@
+{
+  "name": "loja-virtual-professional",
+  "version": "1.0.0",
+  "description": "Marketplace criado pra Black Face OX feito por Codduo",
+  "main": "server.js",
+ "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup": "node -e \"const fs = require('fs'); ['../uploads/products', '../uploads/categories', '../frontend/public'].forEach(dir => { if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true }); });\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "keywords": [
+    "ecommerce",
+    "nodejs",
+    "express",
+    "loja-virtual",
+    "admin-panel"
+  ],
+  "author": "Loja Virtual Professional",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "path-to-regexp": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
