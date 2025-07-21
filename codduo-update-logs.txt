@@ -1,0 +1,60 @@
+🟢🟡🔴                                    HTTPS://WWW.CODDUO-UPDATE-LOGS.COM                                                |
+_____________________________________________________________________________________________________________________________|
+
+📅 07/07/2025
+
+💡 Resumo:
+Foi criado uma implementação com o React e Tailwind.
+Agora o acesso se da por meio de:
+
+
+⚙️ Rodar o back-end (8080)
+cd /backend/
+node server.js
+
+
+⚡ Rodar o front-end
+cd /frontend-react/
+npm run dev
+
+
+// [ Explicação: O front faz contato com a API e a API retorna os dados pro front de forma segura.]
+// [Porque react? O react ajuda a reutilizar componentes gráficos com script.]
+// [Porque Tailwind? O tailwind é uma framework que facilita a estilização in-line no html.]
+
+____________________________________________________________________________________________________________________________
+
+📅 08/07/2025
+
+💡 Resumo:
+Foi criado a implementação do banco de dados PostgreSQL, criado diversas rotas de API e tentativa de integração MercadoPago.
+
+//____________________________________________________________________________________________//
+🔎 Lista das rotas criadas:
+ 🟢 /api/health
+ 🟢 api/products?category={PARAMETRO PRA PESQUISA DE CATEGORIA}
+ 🟢 /api/products?search={PARAMETRO PRA PESQUISA GERAL}
+ 🟢 /api/products/1 (Pesquisa baseado em ID)
+ 🟢 /api/admin/products (Rota administrativa | email: admin@blackfaceox.com | pass: admin123)
+ 🟢 /api/admin/orders
+ 🟢 /api/login
+ 🟢 /api/profile
+ 🟢 /api/verify-token
+ 🟢 /api/register
+ 🟡 /api/forgot-password (Faltando envio de email)
+ 🟢 /api/reset-password
+ 🟢 /api/addresses
+ 🟢 /api/addresses/cep/{COLOQUE UM CEP AQUI}
+ 🟢 /api/cart
+ 🟢 /api/cart/add
+ 🟢 /api/cart/count
+ 🔴 /api/payments/create-preference (ATUALMENTE COM DEFEITO)
+ 🔴 /api/payments/PAYMENT_ID
+//____________________________________________________________________________________________//
+
+📖 Guia de metodos HTTP:
+POST = Enviar dados.
+GET = Puxar dados.
+DELETE = Deletar dados.
+
+____________________________________________________________________________________________________________________________
